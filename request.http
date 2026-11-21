@@ -1,0 +1,25 @@
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+    "name": "syam",
+    "age": 22,
+    "course": "Java"
+}
+
+###
+
+GET http://localhost:8080/students
+
+###
+
+GET http://localhost:8080/students/2
+
+POST http://localhost:8080/students/2
+Content-Type: application/json
+
+{
+    "name": "syam",
+    "age": 22,
+    "course": "Java"
+}
